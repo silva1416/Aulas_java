@@ -23,9 +23,11 @@ public class main {
         System.out.println(pessoa2.nome);
         System.out.println(pessoa2.numFigurinhas);
         
-  //metodo dar      
-        boolean msg = pessoa1.dar(1000,pessoa2);
-        if(msg==true) {
+  //metodo dar 
+        boolean retorno = pessoa1.dar(2,pessoa2);
+        if(retorno == true) {
+        System.out.println("Depois");
+        
  //mostrar quanto tinha antes e depois de dar
         System.out.println(pessoa1.nome);
         System.out.println(pessoa1.numFigurinhas);
@@ -33,6 +35,6 @@ public class main {
         System.out.println(pessoa2.nome);
         System.out.println(pessoa2.numFigurinhas);
     
-	}
+	   }
 	}
 }

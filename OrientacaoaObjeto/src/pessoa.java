@@ -13,21 +13,19 @@ public class pessoa {
 //assinatura do metodo(tipo de retorno, metodo , 
    boolean dar(int Qtdfig, pessoa pessoa) {
 	   
-	   boolean msg;
-	   
 	   if (this.numFigurinhas < Qtdfig) {
 		   System.out.println("Não foi possivel completar sua ação.");
 		  // msg = false;
 		   return false;
 	
 	   }else {
-	   this.numFigurinhas -= numFigurinhas;
-	   pessoa.receber(numFigurinhas);
+	   this.numFigurinhas -= Qtdfig;
+	   pessoa.receber(Qtdfig);
 	  // msg = true;
 	   return true;
 	   
 	    }
-        // return msg;
+        // return msg
          //no segundo caso tem retorno aqui embaixo 
    }
 }
