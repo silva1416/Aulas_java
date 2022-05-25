@@ -1,0 +1,3 @@
+Sabonete [cor=Azul, cheiro=Flores]
+Sabonete [cor=Rosa, cheiro=Camomila]
+Sabonete [cor=Amarelo, cheiro=Baunilia]
