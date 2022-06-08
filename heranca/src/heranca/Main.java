@@ -4,24 +4,24 @@ public class Main {
 
 	public static void main(String[] args) {
 //criando obj veiculo	
-	 veiculo veiculo = new veiculo();
+	 veiculo veiculo = new veiculo();//instanciando
 	 
-	 veiculo.setMarca("honda");
-	 veiculo.setModelo("city");
-	 veiculo.setAno(2013);
+	 veiculo.setMarca("honda");//colocando marca
+	 veiculo.setModelo("city");//colocando modelo
+	 veiculo.setAno(2013);//colocando ano
 	 
-	 veiculo.imprimir();
-	 veiculo.buzinar();
+	 veiculo.imprimir();//mostrar na tela
+	 veiculo.buzinar();//manda buzinar
 
 //criando obj carro
-	 carro carro = new carro();
+	 carro carro = new carro();//instancia carro
 	 
 	 carro.setMarca("honda");
      carro.setModelo("civic");
      carro.setAno(2017);
-     carro.setQuatroPortas(true);
+     carro.setQuatroPortas(true);//quantidade de portas
      
-    System.out.println();
+    System.out.println();//manda mostrar
      
      carro.imprimir();
      carro.buzinar();
@@ -47,7 +47,7 @@ public class Main {
      
      moto.imprimir();
      moto.buzinar();
-     moto.empinar();
+     moto.empinar();//empina
      
 	}
 	
