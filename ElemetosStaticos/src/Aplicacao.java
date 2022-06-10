@@ -3,7 +3,7 @@ public class Aplicacao {
 
 	public static void main(String[] args) {
 		
-		Matematica matematica = new Matematica();
+		Matematica matematica = new Matematica();//cria obj
 		
 //		int resultado = matematica.somar(2, 3);
 //        System.out.println(resultado);
@@ -19,7 +19,7 @@ public class Aplicacao {
 //	Contador contador2 = new Contador();
 //	Contador contador3 = new Contador();
 //	
-//	contador1.incrementar(); //vai aparecer o mesmo valor em todos pois é estatico e é compartilhado por todos 
+//	contador1.incrementar(); //vai aparecer o mesmo valor em todos pois Ã© estatico e Ã© compartilhado por todos 
 //	
 //	System.out.println(contador1.getValor());
 //	System.out.println(contador2.getValor());
