@@ -2,19 +2,19 @@
 public class main {
 
 	public static void main(String[] args) {
-//Criação da 1 pessoa
+//CriaÃ§Ã£o da 1 pessoa
  pessoa pessoa1= new pessoa ();
 		 
-		 pessoa1.nome = "Sthe";
-		 pessoa1.numFigurinhas = 4;
+		 pessoa1.nome = "Sthe";//coloca o nome
+		 pessoa1.numFigurinhas = 4;//coloca o numero de figu
 
 //Metodo receber
-		 pessoa1.receber(0);
+		 pessoa1.receber(0);//quanto pessoa um vai receber
 		 
-		 System.out.println(pessoa1.nome);
+		 System.out.println(pessoa1.nome);//mostrar
 		 System.out.println(pessoa1.numFigurinhas);
 
-//Criação da 2 pessoa
+//CriaÃ§Ã£o da 2 pessoa
  pessoa pessoa2 = new pessoa();
  
         pessoa2.nome = "Gislene";
