@@ -1,7 +1,7 @@
 import java.util.Objects;
 
 public class cliente1 {
-	private String nome;
+	private String nome;//tributos de cliente 1
 	private int cpf;
 	private int num;
 
@@ -9,7 +9,7 @@ public class cliente1 {
 	public cliente1() {
 		super();
 	}
-//source gating sating
+//source get setter
 	public String getNome() {
 		return nome;
 	}
