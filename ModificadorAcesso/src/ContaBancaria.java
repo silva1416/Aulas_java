@@ -1,14 +1,14 @@
 
 public class ContaBancaria {
 	
-	private int numConta;
+	private int numConta;//variaveis
 	private boolean ativo;
 	private double saldo;
 
-//métodos
+//mÃ©todos
 	public ContaBancaria() {
-		ativo = true;
-		saldo = 1.0;
+		ativo = true;//se esta ativo
+		saldo = 1.0;//o tano de saldo da conta
 	}
 	public ContaBancaria(boolean ativo, double saldo) {
 		this.ativo = ativo;
