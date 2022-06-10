@@ -3,14 +3,14 @@ public class Bebida {
 	private String nome;
 	private boolean aquecer;
 
-public Bebida(String nome, boolean aquecer) {
+public Bebida(String nome, boolean aquecer) {//construtor
 	super();
 	this.nome = nome;
 	this.aquecer = aquecer;
 }
 //metodos
 	public void preparar() {
-		System.out.println("Pegando copo");//para n„o repetir o syso no metodo preparar
+		System.out.println("Pegando copo");//para n√£o repetir o syso no metodo preparar
 	}
 //metodos get e set
 	public String getNome() {
