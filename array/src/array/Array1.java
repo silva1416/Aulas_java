@@ -4,7 +4,7 @@ public class Array1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-//			int x1 = 3;
+//			int x1 = 3;//variaveis
 //			int y1 = 5;
 //			int z1 = 7;
 //			
@@ -15,10 +15,10 @@ public class Array1 {
 //			
 //			double x[] = {3, 5, 3, 5};
 //			
-//			for (int aux = 0; aux <x.length; aux++) {//aux comeca em zero,aux for menor que o tamanho que esta em length(tamanho) então adciona
+//			for (int aux = 0; aux <x.length; aux++) {//aux comeca em zero,aux for menor que o tamanho que esta em length(tamanho) entÃ£o adciona
 //			}
 //				String aux;
-//				System.out.println("Valor do índice" + aux + "=" + x[aux]);//mostra
+//				System.out.println("Valor do Ã­ndice" + aux + "=" + x[aux]);//mostra
 //			}
 //			System.out.println();
 //			
@@ -27,7 +27,7 @@ public class Array1 {
 //			for (int aux1 = 0; aux1 < nome.length; aux1++) {//para varrera ate achar o valo de esmeralda
 //				System.out.println(nome[aux1]);
 //				if (nome[aux1] == "Esmeralda") {
-//					System.out.println("O índice de Esmeralda é = " + aux1);//mostra
+//					System.out.println("O Ã­ndice de Esmeralda Ã© = " + aux1);//mostra
 //					
 //			Object[] arrayOBJECT = new Object[4];
 //			
