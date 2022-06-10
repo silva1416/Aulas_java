@@ -3,7 +3,7 @@ public class Data {
 //constantes
 	public static final int FORMATO_12H = 1;
 	public static final int FORMATO_24H = 2;
-	
+	//cria var.
 	private int dia;
 	private int mes;
 	private int ano;
@@ -18,7 +18,7 @@ public class Data {
 		this.ano = ano;
 	}
 	
-	//Construtor completo, que recebe inromações de data e horário
+	//Construtor completo, que recebe inromaÃ§Ãµes de data e horÃ¡rio
 	public Data(int dia, int mes, int ano, int hora, int minuto, int segundo) {
 		//Chama outro construtor da classe
 		this(dia, mes, ano);
@@ -29,12 +29,12 @@ public class Data {
 	}
 	//imprime a data/hora formatada (de acordo com o ormato especificado)
 	public void imprimir(int formato) {
-		//monta a string de impressão de data
+		//monta a string de impressÃ£o de data
 		String data = dia + "/" + mes + ano;
 		
 		if (hora == -1) {
-			//se hora for -1, significa que os dados de horarios não foram passado no construtor.
-			//entao exibe só a data.
+			//se hora for -1, significa que os dados de horarios nÃ£o foram passado no construtor.
+			//entao exibe sÃ³ a data.
 		}else {
 			//monta parte da string do horario (deixa a hora de fora por enquanto)
 			String horario = ":" + minuto + ":" + segundo;
@@ -50,7 +50,7 @@ public class Data {
 				horario += "AM";
 						
 			}else if (hora >= 12){
-				// Se hora for maior ou igual a 12, é preciso subtrair 12 da hora para obter 
+				// Se hora for maior ou igual a 12, Ã© preciso subtrair 12 da hora para obter 
 				// a hora no formato 12h, e concatena o "PM" no fim
 				horario = (hora - 12) + horario;
 				horario += " PM";
