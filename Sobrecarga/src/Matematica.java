@@ -1,17 +1,17 @@
 
 public class Matematica {
 	
-	int somar(int x,int y) {
-		//int z = x + y;
-		//return z;
-		return x + y;
+	int somar(int x,int y) {//manda somar e coloca duas variaveis estabelecidas
+		//int z = x + y; // fala que a variavel z é igual a soma de x e y
+		//return z;//vai retornar z
+		return x + y;//retorna z
 	}
 	
-	int somar (int x, int y, int z) {
+	int somar (int x, int y, int z) {//estabaelece variaveis
 		return x + y + z;
 	}
-//doble � igual float, funciona com virgula tambem 
-	double somar (double x, double y) {
+//doble é igual float, funciona com virgula tambem 
+	double somar (double x, double y) {//estabelece variaveis
 		return x + y;
 	}
 	
