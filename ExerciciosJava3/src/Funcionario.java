@@ -43,7 +43,7 @@ public class Funcionario {
 
 
 //calculo
-	int med (int x, int y) {
+	double med (double x, double y) {
 		return  x + y / 2;
 		
 	}

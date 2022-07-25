@@ -11,15 +11,15 @@ public class Main {
 		funcionario.setNome(scanner.next());
 		
 		System.out.println("Digite o salario do funcionario: ");
-		int x = scanner.nextInt();
+		double x = scanner.nextInt();
 		
 		System.out.println("Digite o nome do funcionario: ");
 		funcionario2.setNome(scanner.next());
 		
 		System.out.println("Digite o salario do funcionario: ");
-		int y = scanner.nextInt();
+		double y = scanner.nextInt();
 		
-		int med = funcionario.med(x, y);
+		double med = funcionario.med(x, y);
 		System.out.println("A media salarial eh de " + med);
 		
 
